@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
-st.set_page_config(page_title="BB84 QKD Simulator", page_icon="🔐", layout="wide")
+st.set_page_config(page_title="BB84 QKD Simulator", page_icon="", layout="wide")
 
 # ---------------- BB84 protocol model ----------------
 def measure(bit, prepared_basis, measured_basis, rng):
